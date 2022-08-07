@@ -3,6 +3,7 @@
 
 body {
     background-color: white;
+    zoom: 150%;
 }
 
 h2 {
@@ -17,10 +18,24 @@ p {
     margin-left: 20px;
 }
 
+li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 200%;
+    margin-left: 20px;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: lightblue;
+}
+
 .header {
     overflow: hidden;
     background-color: white;
-    padding: 5px 10px;
+    padding: 20px 10px;
 }
 
 .header a {
@@ -39,6 +54,10 @@ p {
     color: lightblue;
 }
 
+.header a.active {
+    background-color: lightblue;
+}
+
 .header a.home {
     font-size: 300%;
     font-weight: bold;
@@ -46,4 +65,45 @@ p {
 
 .header-right {
     float: right;
+}
+hr {
+    width: 70%;
+    color: lightgray;
+}
+
+.container {
+    display: grid;
+    column-gap: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.container h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+.container p {
+    margin: auto;
+}
+
+.container ul {
+    margin: auto;
+}
+
+.container li {
+    margin-left: auto;
+    padding: 10px;
+}
+
+#body {
+    grid-column: 1;
+}
+
+#head {
+    grid-column: 2;
+    width: 1000px;
+    margin-right: 5%;
 }
