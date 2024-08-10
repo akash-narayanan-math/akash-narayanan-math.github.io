@@ -3,7 +3,6 @@
 
 body {
     background-color: white;
-    zoom: 150%;
 }
 
 h2 {
@@ -100,6 +99,7 @@ hr {
 
 #body {
     grid-column: 1;
+    margin: 25px 75px;
 }
 
 #head {
