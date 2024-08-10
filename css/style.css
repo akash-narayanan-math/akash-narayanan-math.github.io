@@ -86,6 +86,7 @@ hr {
 
 .container p {
     margin: auto;
+    margin-bottom: 1%;
 }
 
 .container ul {
@@ -99,7 +100,7 @@ hr {
 
 #body {
     grid-column: 1;
-    margin: 25px 75px;
+    margin: 25px 200px;
 }
 
 #head {
